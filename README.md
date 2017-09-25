@@ -1,6 +1,8 @@
 # test-integration
 Integration testing package for Joomla
 
+This repository collects and provides the automated tests, that **need an installed Joomla CMS to run**. In short, these tests rely on services like the database being available to integrate with.
+
 ## Folder Structure
 
 * `core` - Registered to Joomla's autoloader by the unit testing bootstrap file, contains all classes named `Test*` and primarily contains TestCase classes extending the PHPUnit Framework and classes to generate mock objects for several classes.

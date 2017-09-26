@@ -1,5 +1,5 @@
 # test-integration
-Integration testing package for Joomla
+**Integration testing package for Joomla**
 
 This repository collects and provides the automated tests, that **need an installed Joomla CMS to run**. In short, these tests rely on services like the database being available to integrate with.
 

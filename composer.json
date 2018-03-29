@@ -8,7 +8,7 @@
     "config": {
         "optimize-autoloader": true,
         "platform": {
-            "php": "5.3.10"
+            "php": "7.0.8"
         }
     },
     "support": {

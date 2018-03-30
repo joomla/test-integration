@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="libraries/vendor/joomla/test-unit/src/bootstrap.php" colors="false">
+<phpunit bootstrap="bootstrap.php" colors="false">
 	<!-- These constants help setup environment configurations for running optional tests.
 	<php>
 		<const name="JTEST_DATABASE_MYSQL_DSN" value="host=localhost;dbname=joomla_ut;user=utuser;pass=ut1234" />
@@ -39,22 +39,4 @@
 		</testsuite>
 	</testsuites>
 
-	<logging>
-		<log type="coverage-html" target="build/coverage" title="Joomla-CMS" charset="UTF-8" yui="true" highlight="true"
-			lowUpperBound="35" highLowerBound="70" />
-		<log type="coverage-clover" target="build/logs/clover.xml" />
-		<log type="junit" target="build/logs/junit.xml" logIncompleteSkipped="false" />
-	</logging>
-	<filter>
-		<whitelist addUncoveredFilesFromWhitelist="true">
-			<directory suffix=".php">libraries/cms</directory>
-			<directory suffix=".php">libraries/joomla</directory>
-			<directory suffix=".php">libraries/legacy</directory>
-			<directory suffix=".php">libraries/src</directory>
-			<directory suffix=".php">administrator/components/com_finder/helpers/indexer</directory>
-			<directory suffix=".php">plugins</directory>
-			<file>administrator/includes/helper.php</file>
-			<file>libraries/loader.php</file>
-		</whitelist>
-	</filter>
 </phpunit>

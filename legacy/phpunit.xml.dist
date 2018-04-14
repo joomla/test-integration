@@ -7,7 +7,7 @@
 		<const name="JTEST_DATABASE_PDO_MYSQL_DSN" value="host=localhost;dbname=joomla_ut;user=utuser;pass=ut1234" />
 		<const name="JTEST_DATABASE_POSTGRESQL_DSN" value="host=localhost;port=5432;dbname=joomla_ut;user=utuser;pass=ut1234" />
 		<const name="JTEST_DATABASE_SQLSRV_DSN" value="host=localhost;dbname=joomla_ut;user=utuser;pass=ut1234" />
-		<const name="JTEST_HTTP_STUB" value="http://localhost/joomla-cms/libraries/vendor/joomla/test-unit/src/stubs/jhttp_stub.php" />
+		<const name="JTEST_HTTP_STUB" value="http://localhost/joomla-cms/stubs/jhttp_stub.php" />
 		<const name="JOOMLA_TEST_LOGGING" value="yes" />
 		<const name="JTEST_CACHE_REDIS_DSN" value="host=localhost;port=6379;db=;auth=" />
 		<const name="JTEST_CACHE_MEMCACHE_DSN" value="host=localhost;port=11211" />
@@ -17,25 +17,25 @@
 
 	<testsuites>
 		<testsuite name="libraries-cms">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/libraries/cms</directory>
+			<directory>suites/libraries/cms</directory>
 		</testsuite>
 		<testsuite name="libraries-platform">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/libraries/joomla</directory>
+			<directory>suites/libraries/joomla</directory>
 		</testsuite>
 		<testsuite name="libraries-legacy">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/libraries/legacy</directory>
+			<directory>suites/libraries/legacy</directory>
 		</testsuite>
 		<testsuite name="database">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/database</directory>
+			<directory>suites/database</directory>
 		</testsuite>
 		<testsuite name="administrator">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/administrator</directory>
+			<directory>suites/administrator</directory>
 		</testsuite>
 		<testsuite name="FinderIndexer">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/finderIndexer</directory>
+			<directory>suites/finderIndexer</directory>
 		</testsuite>
 		<testsuite name="plugins">
-			<directory>libraries/vendor/joomla/test-unit/src/suites/plugins</directory>
+			<directory>suites/plugins</directory>
 		</testsuite>
 	</testsuites>
 

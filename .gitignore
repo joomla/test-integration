@@ -1,2 +1,24 @@
+# IDE & System Related Files #
+.buildpath
+.editorconfig
+.project
+.settings
+.DS_Store
+.idea
+.vscode
 
-/vendor/
+# OSX #
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows #
+Thumbs.db
+Desktop.ini
+
+
+# Vendor folder / Dependencies
+/vendor
+
+# Test related files
+src/_output

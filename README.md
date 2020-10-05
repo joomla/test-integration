@@ -1,3 +1,5 @@
+NOTE - This repository has been archived for now. 
+
 # test-integration
 **Integration testing package for Joomla**
 
